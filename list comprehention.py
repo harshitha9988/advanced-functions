@@ -1,3 +1,3 @@
-a=[1,2,3,4,5]
-b=[x for x in a if x%2!=0]
+a=int(input("Enter a number: "))
+b=[x for x in range (a) if x%2!=0]
 print("list of odd numbers from the original list: ",b)
